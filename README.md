@@ -7,13 +7,16 @@ VISUALIZAÇÃO DA TABELA DE NOTAS E A TABELA DE ALUNOS;
 
 UNIÃO DA TABELA ALUNOS E NOTAS;
 
-![PREVIEW](melhoraluno.png)
+![PREVIEW](melhorAluno.png)
+
 O MELHOR ALUNO DA ESCOLA;
 
 ![PREVIEW](mediano.png)
+
 O ALUNO MEDIANO;
 
 ![PREVIEW](pior.png)
+
 O PIOR ALUNO;
 
 
