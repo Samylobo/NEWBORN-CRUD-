@@ -1,23 +1,15 @@
 
+<h4> Visualização da Tabela de notas e a tabela de alunos;</h4>
 ![PREVIEW](TabelaDeNotasAlunos.png)
 
-VISUALIZAÇÃO DA TABELA DE NOTAS E A TABELA DE ALUNOS;
-
+<h4> União Da Tabela Alunos e Notas; </h4>
 ![PREVIEW](UniãoDasTabelasIDAlunosNotas.png)
 
-UNIÃO DA TABELA ALUNOS E NOTAS;
+<h4> O MELHOR ALUNO DA ESCOLA; </h4>
+![PREVIEW](melhoraluno.png)
 
-![PREVIEW](melhorAluno.png)
-
-O MELHOR ALUNO DA ESCOLA;
-
+<h4> O Aluno Mediano </h4>
 ![PREVIEW](mediano.png)
 
-O ALUNO MEDIANO;
-
+<h4> O PIOR ALUNO; </h4>
 ![PREVIEW](pior.png)
-
-O PIOR ALUNO;
-
-
-
