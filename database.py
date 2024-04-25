@@ -14,16 +14,20 @@ alunos_df = pd.DataFrame(response['data'])
 response_notas = client.table('notas').select("id_aluno", "nota").execute()
 notas_df = pd.DataFrame(response_notas['data'])
 print(notas_df)
+
 # mesclando as tabelas dos alunos e notas
 aluno_notas_df = pd.merge(alunos_df, notas_df, left_on='id_aluno', right_on='id_aluno')
 print(aluno_notas_df)
+
 # analisando qual é o melhor aluno 
 melhor_aluno = aluno_notas_df.loc[aluno_notas_df['nota'].idxmax()]
 print(melhor_aluno)
+
 # o aluno mediano 
 notas_medianas = aluno_notas_df['nota'].median()
 aluno_mediano = aluno_notas_df.loc[aluno_notas_df['nota']== notas_medianas]
 print(aluno_mediano)
+
 # o pior aluno 
 pior_aluno = aluno_notas_df.loc[aluno_notas_df['nota'].idxmin()]
 print(pior_aluno)
